@@ -8,7 +8,9 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    return render_template('index.html')
+    title = 'Home - Welcome to The best Music Review Website Online'
+    return render_template('index.html', title = title)
+
 @app.route('/music/<int:music_id>')
 def music(music_id):
 
