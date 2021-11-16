@@ -1,3 +1,4 @@
+{% import 'macros.html' as macro%}
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,6 +10,14 @@
         {% endif %}
     </head>
     <body>
-
+        <body>
+            <!-- Popular music section  -->
+            <h3> Popular Music</h3>
+             <ul>
+                {% for popular_music in popular %}
+                    <li>{{ popular_music.title}}</li>
+                {% endfor %}
+            </ul>
+     </body>
     </body>
 </html>
