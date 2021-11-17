@@ -1,0 +1,7 @@
+{% macro displayMusicList(music_list) %}
+
+    {% for music in music_list %}
+        <li>{{ music.title}}</li>
+    {% endfor %}
+
+{% endmacro %

@@ -1,0 +1,23 @@
+{% import 'macros.html' as macro%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> Welcome to the best Music Review website </title>
+        {% endif %}
+    </head>
+    <body>
+        <body>
+            <!-- Popular music section  -->
+            <h3> Popular Music</h3>
+             <ul>
+                {% for popular_music in popular %}
+                    <li>{{ popular_music.title}}</li>
+                {% endfor %}
+            </ul>
+     </body>
+    </body>
+</html>
