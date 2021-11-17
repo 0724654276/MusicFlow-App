@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/synthia/MORINGA-CORE/PYTHON APPS/News-flow/MusicFlow-App/virtual/bin/python" "$0" "$@"
-' '''
+#!/home/morrison/Documents/newpython/MusicFlow-App/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
